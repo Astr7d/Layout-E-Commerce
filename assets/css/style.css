@@ -45,10 +45,28 @@ main{
     'section section section'
     'section section section';
     margin: auto;
+    gap: 20px;
+}
+
+main section{
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 main img{
     height: 400px;
+}
+
+main button{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
 }
 
 main p{
